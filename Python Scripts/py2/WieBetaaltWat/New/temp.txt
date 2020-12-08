@@ -1,0 +1,1 @@
+{'Bekkers': {'Veenstra': 562.4699999999999}, 'Huurdeman': {}, 'Veenstra': {'Bekkers': 401.34000000000003}}

@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"name": ".vscode",
+			"path": "Python Scripts\\.vscode"
+		},
+		{
+			"name": "py39",
+			"path": "Python Scripts\\py39"
+		}
+	],
+	"settings": {
+		"python.pythonPath": "c:\\Python\\Python39\\python.exe"
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Python: Current File",
+				"type": "python",
+				"request": "launch",
+				"program": "${file}",
+				"console": "integratedTerminal"
+			}
+		]
+	}
+}

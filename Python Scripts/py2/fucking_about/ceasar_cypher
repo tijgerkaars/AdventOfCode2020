@@ -1,0 +1,30 @@
+problem = [
+"wkpklm",
+"lskzcp",
+"ljnl7e",
+"mrmnmn",
+"qgdqvg",
+"inbd6z",
+"gjac6o",
+"lwvvhp"]
+# problem = ["abcdefghijklmnopqrstuvwxyz", "ABCDEFGHIJKLMNOPQRSTUVWXYZ","0123456789"]
+
+solution = []
+key = 0
+
+for i in range(len(problem)):
+    letterlist = list(problem[i])
+    for j in range(len(letterlist)):
+        new = ord(letterlist[j])
+        new += key
+        if (letterlist[j] >= "a" and letterlist[j] <= "z" and new > ord("z")) or (letterlist[j] >= "A" and letterlist[j] <= "Z" and new > ord("Z")):
+            new -= 26
+        if (letterlist[j] >= "0" and letterlist[j] <= "9" and new > ord("9")):
+            new -= 10
+        letterlist[j] = str(unichr(new))
+    solution.append(letterlist)
+    key += 1
+
+for i in range(len(problem)):
+    print problem[i]
+    print solution[i]
