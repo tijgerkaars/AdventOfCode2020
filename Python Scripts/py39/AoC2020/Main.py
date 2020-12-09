@@ -27,7 +27,7 @@ def part2(inp, **args):
 
 if __name__ == "__main__":
     t0 = time()
-    day = -1; test = 1; prnt = not test
+    day = -1; test = 0; prnt = test != 0
     inp = parse(day,test, prnt=prnt)
     # part1(inp, prnt=True)
     # part2(inp, prnt=True)
