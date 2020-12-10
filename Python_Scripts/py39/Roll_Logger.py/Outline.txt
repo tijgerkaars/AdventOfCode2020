@@ -1,0 +1,73 @@
+
+
+
+Functionality:
+    - remember names
+    - dice:
+        - type and result/min/max
+    - comments
+    - full roll history
+        - history: "Name Rolled DX for save/attack/etc"
+
+UI:
+    - Column Names
+    - Dropdown Names:
+        - Access stored names
+        - Entry for adding new names
+            - Inplace?
+            - Aside?
+    - Dropdown Dice:
+        - Access previously thrown dice
+        - Entry for adding new names
+            - Inplace?
+            - Aside?
+    - Dropdown Dice Type:
+        - Access previously thrown dice
+        - Entry for adding new names
+            - Inplace?
+            - Aside?
+    - Actual Log:
+        - Entry for result
+        - Entry for comment (can be empty)
+        - Button to commit Log
+    - Querry Log:
+        - times:
+            - session
+            - all
+            - specific date?
+        - Pop up?
+            - player per row
+            - first/last total amount
+            - dicetype per column
+            - total min/max per column
+
+
+impletmentation:
+    JSON['START'] = {
+        [NAMES],
+        [DICE],
+        [TYPES]
+    }
+    JSON['LOG']['DATE']['Names']['DICE'] = list[ (type, amount, comment) ]
+
+    Label for each
+        Names/dice/type:
+            - on selection: -> click typing
+                - Hide Dropdown -> Place Entry
+                    * Makes updating Dropdown easier
+                    * elements don't jump around (if column width is fixed)
+                - Show 'new x' text when made
+                - remove/hide 'new x' when clicked on/typed in
+                - remove entry when unfocused -> Place Dropdown
+        Log:
+            - entries do only clear when commit/right mouse
+            - amount check if int/float
+            - comment limit lenght? maybe option in ['START']
+        
+        Session Feed:
+            - scrollable frame
+            - 
+
+
+
+#
