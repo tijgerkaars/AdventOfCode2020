@@ -48,7 +48,7 @@ impletmentation:
         [DICE],
         [TYPES]
     }
-    JSON['LOG']['DATE']['Names']['DICE'] = list[ (type, amount, comment) ]
+    JSON['LOG']['DATE']['Names']['DICE'] = list[ (type, amount, comment, time) ]
 
     Label for each
         Names/dice/type:
