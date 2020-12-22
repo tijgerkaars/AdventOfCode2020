@@ -135,7 +135,7 @@ class Dice_counter(Anim):
         return 
 
         # add entry for results
-        e = tk.Entry(self.root)
+        e = tk.Entry(self.root) # pylint: disable=unreachable
         e.config(fg = 'grey')
         e.grid(row = 0, column=i); i += 1
         # entry.bind('<FocusIn>', on_entry_click)

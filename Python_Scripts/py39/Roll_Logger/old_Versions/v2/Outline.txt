@@ -1,4 +1,7 @@
+Missing
 
+- Querry needs to write to file first
+    - or adding entry needs to write
 
 
 Functionality:
@@ -46,9 +49,9 @@ impletmentation:
     JSON['START'] = {
         [NAMES],
         [DICE],
-        [TYPES]
+        [CHECKS]
     }
-    JSON['LOG']['DATE']['Names']['DICE'] = list[ (type, amount, comment, time) ]
+    JSON['LOG']['DATE']['Names']['DICE'] = list[ (CHECKS, amount, comment, time) ]
 
     Label for each
         Names/dice/type:
