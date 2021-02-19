@@ -1,0 +1,61 @@
+{
+    "START": {
+        "NAMES": [
+            "Boris",
+            "Jobber"
+        ],
+        "DICE": [
+            "d4",
+            "d6",
+            "d8",
+            "d10",
+            "d12",
+            "d20",
+            "d100",
+            "d1000"
+        ],
+        "CHECKS": [
+            "CHR-Save",
+            "CON-Save",
+            "DEX-Save",
+            "INT-Save",
+            "STR-Save",
+            "WIS-Save",
+            "Acrobatics",
+            "Animal Handling",
+            "Arcana",
+            "Athletics",
+            "Attack",
+            "Concentratoin",
+            "Deception",
+            "History",
+            "Initiative",
+            "Insight",
+            "Intimidation",
+            "Investigation",
+            "Medicine",
+            "Nature",
+            "Perception",
+            "Performance",
+            "Persuasion",
+            "Religion",
+            "Sleight of Hand",
+            "Stealth",
+            "Survival"
+        ]
+    },
+    "LOG": {
+        "2020-12-16": {
+            "Boris": {
+                "d1000": [
+                    [
+                        "Attack",
+                        true,
+                        "",
+                        "21:04:58"
+                    ]
+                ]
+            }
+        }
+    }
+}

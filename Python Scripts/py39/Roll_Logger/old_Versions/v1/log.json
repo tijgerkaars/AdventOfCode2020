@@ -1,0 +1,45 @@
+{
+    "START": {
+        "NAMES": [],
+        "DICE": [
+            "d4",
+            "d6",
+            "d8",
+            "d10",
+            "d12",
+            "d20",
+            "d100"
+        ],
+        "CHECKS": [
+            "Acrobatics",
+            "Animal Handling",
+            "Arcana",
+            "Athletics",
+            "Attack",
+            "CHR-Save",
+            "CON-Save",
+            "Concentratoin",
+            "DEX-Save",
+            "Deception",
+            "Dexterity",
+            "History",
+            "INT-Save",
+            "Initiative",
+            "Insight",
+            "Intimidation",
+            "Investigation",
+            "Medicine",
+            "Nature",
+            "Perception",
+            "Performance",
+            "Persuasion",
+            "Religion",
+            "STR-Save",
+            "Sleight of Hand",
+            "Stealth",
+            "Survival",
+            "WIS-Save"
+        ]
+    },
+    "LOG": {}
+}

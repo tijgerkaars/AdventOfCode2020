@@ -1,0 +1,66 @@
+main:
+    -   take player input
+        - pass input to game
+
+game:
+    -   number of players
+    -   names of players
+        - check if numbers match
+            - ask for more names?
+    - game_mat / map:
+        - hex_grid( diagonal size: D?)
+        - moons (positions outside of grid)
+            - extra hex_grid's size 1?
+    - deal with:
+        - actions:
+            - raise temp
+            - raise oxy
+            - place tiles:
+                - city
+                - greenery
+                - ocean
+                - card_tiles:
+                    -   nuke
+                    -   etc
+        - list(standart projects)
+        - awards
+        - milestones
+    - Deck
+    - discard # NOTE maybe combine with deck, or have a deck for both
+
+
+player:
+    - score
+    - name
+    - hand
+    - played cards
+    - actions:
+        - standart actions:
+            - sell cards
+            - buy energy prod
+            - raise temp
+            - place ocean
+            - place greenery
+            - palce city
+        - Card actions:
+            -- AAAAALLLLL the shit goes here
+                - add functions to cards. not to player
+                    so we can call card.action when player.play(card) is called
+                    -   add game and player, to card required input
+
+Deck:
+    - hold cards
+    - current pile
+    - functions:
+        - add card
+        - add pile
+        - shuffle deck
+        - { shuffle - add 
+        -   add _ shuffle } combine decks
+    - standard deck
+    - dlc decks conditional adding?
+
+
+
+
+
